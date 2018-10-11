@@ -1996,10 +1996,13 @@ ul.icons {
     #banner > .inner > :last-child {
       margin-bottom: 0; }
   #banner h1 {
-    font-size: 4rem;
-    margin-bottom: 1rem; }
+    font-size: 7rem;
+    margin-bottom: 1rem; 
+	font-family: Bradley Hand, cursive;
+	}
   #banner p {
     font-size: 1.5rem; }
+	font-family: Bradley Hand, cursive;
   #banner a {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none; }
