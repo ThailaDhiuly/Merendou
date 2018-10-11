@@ -4,52 +4,43 @@
 	<title>Registre-se</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-<link rel="icon" type="image/png" href="images/merendou.png">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images1/merendou.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts1/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor1/animate/animate.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor1/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor1/select2/select2.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css1/util1.css"> 
+	<link rel="stylesheet" type="text/css" href="css1/util1.css">
 	<link rel="stylesheet" type="text/css" href="css1/main1.css">
 <!--===============================================================================================-->
-   
 </head>
-
 <body>
 <!-- Header -->
-<header id="header">
-		<a href="index.html"><img src="images/logo_merendou.png" class="logo"></a>
-		<nav>
-			<div class="imgmenu">
-				<a href="#menu"><img src="images/f0c9.png" class="icon_m"></a>
-			</div>
-		</nav>
-	</header>
+			<header id="header">
+				<a href="index.html"><img src="images1/logo_merendou.png" class="logo"></a>
+				<nav>
+					<div class="imgmenu">
+						<a href="#menu"><img src="images1/f0c9.png" class="icon_m"></a>
+					</div>
+				</nav>
+			</header>
 
-<!-- Nav -->
-	<nav id="menu">
-		<ul class="links">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="login.html">Login</a></li>
-			<li><a href="cadastro.html">Cadastro</a></li>
-			<li><a href="generic.html">Procurar</a></li>
-		</ul>
-	</nav>
-	
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.php">Home</a></li>
+					<li><a href="login.php">Login</a></li>
+					<li><a href="cadastro.php">Cadastro</a></li>
+					<li><a href="generic.php">Procurar</a></li>
+				</ul>
+			</nav>
 <div class="limiter">		
 	<div class="container-login100" style="background-image: url('images1/fundo.jpg');">
 		<div class="container-contact1" style="background-image: url('images1/lousa.jpg');">
@@ -61,26 +52,25 @@
 				<span class="contact1-form-title">
 					Cadastre-se
 				</span>
-				
-				<div class="wrap-input100 validate-input" data-validate = "Digite seu usuário">
-					<input class="input100" type="text" name="username" placeholder="Usuário">
-					<span class="focus-input100" data-placeholder="&#xe063;"></span>
-					 
+
+				<div class="wrap-input1 validate-input" data-validate = "Digite seu nome, por obséquio!">
+					<input class="input1" type="text" name="nome" placeholder="Nome">
+					<span class="shadow-input1"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input" data-validate="Digite seu E-mail">
-					<input class="input100" type="text" name="pass" placeholder="E-mail">
-					<span class="focus-input100" data-placeholder="&#xe0be;"></span>
+				<div class="wrap-input1 validate-input" data-validate = "Digite seu E-mail, por obséquio!">
+					<input class="input1" type="text" name="email" placeholder="E-mail">
+					<span class="shadow-input1"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input" data-validate = "Digite seu CPF">
-					<input class="input100" type="text" name="username" placeholder="CPF">
-					<span class="focus-input100" data-placeholder="&#xf207;"></span>
+				<div class="wrap-input1 validate-input" data-validate = "Digite seu CPF, por obséquio">
+					<input class="input1" type="text" name="subject" placeholder="CPF">
+					<span class="shadow-input1"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input" data-validate="Digite sua senha">
-					<input class="input100" type="password" name="pass" placeholder="Senha">
-					<span class="focus-input100" data-placeholder="&#xf191;"></span>
+				<div class="wrap-input1 validate-input" data-validate = "Digite sua senha, por obséquio">
+					<input class="input1" type="password" name="senha" placeholder="Senha">
+					<span class="shadow-input1"></span>
 				</div>
 
 				<div class="container-contact1-form-btn">
@@ -125,13 +115,6 @@
 
 <!--===============================================================================================-->
 	<script src="js1/main.js"></script>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
 
 </body>
 </html>

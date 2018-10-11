@@ -26,9 +26,9 @@
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="elements.html">Elements</a></li>
-					<li><a href="generic.html">Generic</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="elements.php">Elements</a></li>
+					<li><a href="generic.php">Generic</a></li>
 				</ul>
 			</nav>
 

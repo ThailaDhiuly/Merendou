@@ -24,10 +24,10 @@
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="login.html">Login</a></li>
-					<li><a href="cadastro.html">Cadastro</a></li>
-					<li><a href="generic.html">Procurar</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="login.php">Login</a></li>
+					<li><a href="cadastro.php">Cadastro</a></li>
+					<li><a href="generic.php">Procurar</a></li>
 				</ul>
 			</nav>
 

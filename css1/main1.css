@@ -328,6 +328,7 @@ nav {
 
 
 
+
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
@@ -775,7 +776,7 @@ textarea.input1 + .shadow-input1 {
 }
 
 .input100 {
-  font-family: Poppins-Regular;
+  font-family: Poppins-Regular, font-awesome;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
@@ -816,7 +817,7 @@ textarea.input1 + .shadow-input1 {
 }
 
 .focus-input100::after {
-  font-family: Material-Design-Iconic-Font;
+  font-family: Material-Design-Iconic-Font, font-awesome;
   font-size: 22px;
   color: #fff;
 

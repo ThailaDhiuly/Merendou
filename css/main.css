@@ -280,6 +280,10 @@ nav {
   font-family: Poppins-SemiBold;
   src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
 }
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('..\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf'); 
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -505,7 +509,7 @@ iframe {
 }
 
 .input100 {
-  font-family: Poppins-Regular;
+  font-family: Poppins-Regular, font-awesome;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
@@ -546,7 +550,7 @@ iframe {
 }
 
 .focus-input100::after {
-  font-family: Material-Design-Iconic-Font;
+  font-family: Material-Design-Iconic-Font, font-awesome;
   font-size: 22px;
   color: #fff;
 
