@@ -4,7 +4,8 @@
 	<title>Registre-se</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 <link rel="icon" type="image/png" href="images/merendou.png">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -70,7 +71,7 @@
 
 				<div class="wrap-input100 validate-input" data-validate="Digite seu E-mail">
 					<input class="input100" type="text" name="pass" placeholder="E-mail">
-					<span class="focus-input100" data-placeholder="&#xf603;"></span>
+					<span class="focus-input100" data-placeholder="&#xf204;"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Digite seu CPF">
